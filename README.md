@@ -1,10 +1,10 @@
-# Repository: django-dealership-app
+# Repository: xrwvm-fullstack_developer_capstone
 
-## Project: Best Cars Dealership — Django Application Development with SQL and Databases
+## Project: fullstack_developer_capstone
 
 A full-stack car dealership web application built with **Django** (backend), **React** (frontend),
 **Express.js** (dealer microservice) and **SQLite/PostgreSQL** (database), containerized with Docker
-and deployed on IBM Cloud Code Engine with a GitHub Actions CI/CD pipeline.
+and deployed with a GitHub Actions CI/CD pipeline.
 
 ### Features
 - Dealer management backed by an Express.js REST API (`/fetchDealers`, `/fetchDealer/:id`,
@@ -13,10 +13,10 @@ and deployed on IBM Cloud Code Engine with a GitHub Actions CI/CD pipeline.
 - User authentication: login, logout and registration (Django + React)
 - Dealer reviews with IBM Watson Natural Language Understanding sentiment analysis
 - Static "About Us" and "Contact Us" pages
-- CI/CD with GitHub Actions: lint, test, build Docker image, deploy to Code Engine
+- CI/CD with GitHub Actions: lint Python files, lint JavaScript files, test, build Docker image, deploy
 
 ### Tech stack
-Django 4.2 · React 18 · Express.js · SQLite · Docker · IBM Cloud Code Engine · GitHub Actions
+Django 4.2 · React 18 · Express.js · SQLite · Docker · GitHub Actions
 
 ### Run locally
 ```bash
