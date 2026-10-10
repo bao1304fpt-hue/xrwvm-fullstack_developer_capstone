@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Best Cars Dealership</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/contact.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/djangoapp">Home</a>
+        <a href="/djangoapp/about">About Us</a>
+        <a href="/djangoapp/contact" class="active">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <img src="/static/images/showroom.jpg" alt="Best Cars showroom" class="banner">
+
+        <div class="contact-details">
+            <h2>Get in Touch</h2>
+            <p><strong>Address:</strong> 1000 Auto Mall Drive, Kansas City, KS 66101</p>
+            <p><strong>Phone:</strong> +1 (913) 555-0147</p>
+            <p><strong>Email:</strong> support@bestcars.com</p>
+            <p><strong>Working hours:</strong> Monday – Saturday, 9:00 AM – 8:00 PM</p>
+        </div>
+
+        <form class="contact-form" action="/djangoapp/contact" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
